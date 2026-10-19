@@ -18,7 +18,9 @@ Incomplete or incorrect documents can create rework and delay assessment. This p
 
 ## Process map
 
-The PNG export is awaiting upload to this repository.
+[View the original process map in Lucidspark](https://lucid.app/lucidspark/0acb376c-e88d-43c3-851a-b8d57038d122/edit)
+
+Lucid sign-in and document access may be required. The PNG below can be viewed directly on GitHub.
 
 ![Proposed loan application process map](loan-approval-process-improvement.png)
 
@@ -39,3 +41,4 @@ A real pilot could compare document completeness at first submission, document r
 This is a proposed to-be workflow for a learning scenario. Next steps are to validate the current process with stakeholders, confirm task permissions and escalation deadlines, add role swimlanes, and define requirements and acceptance criteria.
 
 **Tool:** Lucidspark
+
