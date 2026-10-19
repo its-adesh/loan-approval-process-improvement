@@ -14,7 +14,7 @@ This is a learning scenario. The processes and problems are assumptions to valid
 
 The assumed current workflow relies on manual document checks after submission. Missing or incorrect documents place assessment on hold while staff follow up. Returned documents are checked again before credit assessment and manager review.
 
-![As-Is loan approval process](loan-approval-as-is.png)
+![As-Is loan approval process](./loan-application%20%E2%80%94%20As-Is%20Process.png)
 
 ## To-Be Process
 
@@ -30,13 +30,13 @@ The diagram separates responsibilities across five lanes:
 - Credit Assessment
 - Authorised Manager
 
-![To-Be loan approval process](loan-approval-to-be.png)
+![To-Be loan approval process](./loan-application%20%E2%80%94%20To-Be%20Process.png)
 
 ## Key changes
 
 | Area | As-Is | Proposed To-Be |
 |---|---|---|
-| Initial document checks | Manual checks after submission | Required attachments checked by the system before submission, followed by officer review |
+| Initial document checks | Manual checks after submission | System checks required attachments before submission, followed by officer review |
 | Missing documents | Assessment placed on hold | Permitted tasks continue; document-dependent tasks pause |
 | Follow-up | Manual follow-up until documents arrive | Assigned responsibility, due date, and agreed escalation rules |
 | Replacement documents | Returned through the manual document check | Explicit validation and acceptance decision |
