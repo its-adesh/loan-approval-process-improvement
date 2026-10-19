@@ -1,6 +1,6 @@
 # Loan Approval Process Improvement
 
-A business analysis practice project exploring how document validation and follow-up could improve a loan application workflow. I created a proposed process map in Lucidspark.
+A business analysis practice project exploring how document validation and follow-up could improve a loan application workflow. I created a proposed process map in Lucidchart.
 
 ## Business problem
 
@@ -18,7 +18,7 @@ Incomplete or incorrect documents can create rework and delay assessment. This p
 
 ## Process map
 
-[View the original process map in Lucidspark](https://lucid.app/lucidspark/0acb376c-e88d-43c3-851a-b8d57038d122/edit)
+[View the process map in Lucidchart (view only)](https://lucid.app/lucidspark/0acb376c-e88d-43c3-851a-b8d57038d122/edit)
 
 Lucid sign-in and document access may be required. The PNG below can be viewed directly on GitHub.
 
@@ -40,5 +40,5 @@ A real pilot could compare document completeness at first submission, document r
 
 This is a proposed to-be workflow for a learning scenario. Next steps are to validate the current process with stakeholders, confirm task permissions and escalation deadlines, add role swimlanes, and define requirements and acceptance criteria.
 
-**Tool:** Lucidspark
+**Tool:** Lucidchart
 
