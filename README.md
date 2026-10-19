@@ -1,44 +1,98 @@
 # Loan Approval Process Improvement
 
-A business analysis practice project exploring how document validation and follow-up could improve a loan application workflow. I created a proposed process map in Lucidchart.
+A business analysis practice project comparing an As-Is loan application process with a proposed To-Be workflow. Both process maps were created in Lucidchart using swimlanes to show responsibilities, decisions, and handovers.
 
 ## Business problem
 
-Incomplete or incorrect documents can create rework and delay assessment. This project explores earlier validation, clear follow-up responsibility, and controlled continuation of permitted assessment tasks. These are scenario assumptions to investigate, rather than findings from a real lender.
+Incomplete or incorrect documents can create rework, repeated follow-up, and delays in loan assessment.
 
-## Proposed process
+This project explores earlier attachment checks, clear follow-up responsibility, and controlled continuation of permitted assessment tasks.
 
-1. Check that required attachments are present before submission and show a missing-upload message where needed.
-2. Have an officer review document completeness and correctness.
-3. Flag outstanding documents and assign a follow-up owner and due date.
-4. Continue only assessment tasks permitted by approved business rules; pause tasks that depend on missing documents.
-5. Follow up and escalate under agreed rules, then validate replacement documents.
-6. Complete the credit assessment and route the application to an authorised manager for review.
-7. Notify the customer of approval or decline.
+This is a learning scenario. The processes and problems are assumptions to validate with stakeholders, rather than findings from a real lender.
 
-## Process map
+## As-Is Process
 
-[View the process map in Lucidchart (view only)](https://lucid.app/lucidspark/0acb376c-e88d-43c3-851a-b8d57038d122/edit)
+The assumed current workflow relies on manual document checks after submission. Missing or incorrect documents place assessment on hold while staff follow up. Returned documents are checked again before credit assessment and manager review.
 
-Lucid sign-in and document access may be required. The PNG below can be viewed directly on GitHub.
+![As-Is loan approval process](loan-approval-as-is.png)
 
-![Proposed loan application process map](loan-approval-process-improvement.png)
+## To-Be Process
+
+The proposed workflow introduces system checks for required attachments before submission, assigned follow-up responsibility and due dates, and explicit validation of replacement documents.
+
+Only assessment tasks permitted by approved business rules may continue while documents are outstanding. Tasks dependent on missing documents pause, and the authorised manager retains the final approval decision.
+
+The diagram separates responsibilities across five lanes:
+
+- Customer
+- Application System
+- Loan Officer
+- Credit Assessment
+- Authorised Manager
+
+![To-Be loan approval process](loan-approval-to-be.png)
+
+## Key changes
+
+| Area | As-Is | Proposed To-Be |
+|---|---|---|
+| Initial document checks | Manual checks after submission | Required attachments checked by the system before submission, followed by officer review |
+| Missing documents | Assessment placed on hold | Permitted tasks continue; document-dependent tasks pause |
+| Follow-up | Manual follow-up until documents arrive | Assigned responsibility, due date, and agreed escalation rules |
+| Replacement documents | Returned through the manual document check | Explicit validation and acceptance decision |
+| Credit assessment ownership | Loan officer | Separate Credit Assessment lane |
+| Customer notification | Authorised manager | Loan officer |
+| Final approval | Authorised manager | Authorised manager |
+
+Changes to task ownership are proposals that require stakeholder agreement.
+
+## Expected benefits
+
+The proposed workflow aims to:
+
+- Identify missing attachments earlier.
+- Make follow-up ownership and deadlines clearer.
+- Reduce avoidable waiting where assessment tasks can proceed.
+- Provide a defined process for validating replacement documents.
+- Retain human review and authorised approval.
+
+These are expected benefits. No improvement has been measured or claimed.
 
 ## Business analysis skills demonstrated
 
-- Process mapping and decision modelling
-- Exception handling and document rework loops
+- As-Is and To-Be process mapping
+- Swimlane modelling and responsibility allocation
+- Process comparison and improvement identification
+- Decision modelling and exception handling
+- Document validation and rework loops
 - Follow-up ownership and escalation
 - Business rules governing permitted assessment work
-- Human review and customer communication
 
 ## Measures to evaluate
 
-A real pilot could compare document completeness at first submission, document rework rate, time waiting for documents, overall application turnaround time, and overdue follow-up volume. No improvement has been measured or claimed.
+A real pilot could compare:
+
+- Document completeness at first submission
+- Document rework rate
+- Time waiting for outstanding documents
+- Overall application turnaround time
+- Overdue follow-up volume
 
 ## Status and next steps
 
-This is a proposed to-be workflow for a learning scenario. Next steps are to validate the current process with stakeholders, confirm task permissions and escalation deadlines, add role swimlanes, and define requirements and acceptance criteria.
+Completed:
+
+- As-Is and To-Be process maps
+- Swimlanes showing responsibilities and handovers
+- Proposed document validation and follow-up improvements
+
+Next steps:
+
+- Validate the assumed current process with stakeholders.
+- Confirm proposed responsibilities and handovers.
+- Define required documents and permitted assessment tasks.
+- Agree follow-up deadlines and escalation rules.
+- Document requirements and acceptance criteria.
+- Establish baseline measures and evaluate the proposed changes.
 
 **Tool:** Lucidchart
-
