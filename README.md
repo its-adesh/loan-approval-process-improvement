@@ -1,38 +1,30 @@
-# Loan Approval Process Improvement
+# Loan approval process improvement
 
-A business analysis practice project comparing an As-Is loan application process with a proposed To-Be workflow. Both process maps were created in Lucidchart using swimlanes to show responsibilities, decisions, and handovers.
+A business analysis practice project. I mapped an As-Is loan application process and a proposed To-Be version in Lucidchart, using swimlanes to show who is responsible for each step, where decisions happen, and where work is handed over.
 
 ## Business problem
 
-Incomplete or incorrect documents can create rework, repeated follow-up, and delays in loan assessment.
+When documents are incomplete or incorrect, applications get reworked, staff chase customers repeatedly, and assessment slows down. I looked at three ideas: checking attachments earlier, giving follow-up a clear owner, and letting some assessment tasks continue while documents are outstanding.
 
-This project explores earlier attachment checks, clear follow-up responsibility, and controlled continuation of permitted assessment tasks.
+This is a learning scenario. The processes and problems are my assumptions and would need validating with stakeholders. They don't come from a real lender.
 
-This is a learning scenario. The processes and problems are assumptions to validate with stakeholders, rather than findings from a real lender.
+## As-Is process
 
-## As-Is Process
+I assumed the current workflow checks documents by hand after submission. If a document is missing or incorrect, assessment goes on hold while staff follow up. Returned documents are checked again before credit assessment and manager review.
 
-The assumed current workflow relies on manual document checks after submission. Missing or incorrect documents place assessment on hold while staff follow up. Returned documents are checked again before credit assessment and manager review.
-
-**[View the As-Is Process Map in Lucidchart](https://lucid.app/lucidchart/a36d8ff2-e6b8-426c-af67-fa70f04b9f55/edit?invitationId=inv_1df9e484-663a-4413-84b1-a63b7b525018)**
+**[View the As-Is process map in Lucidchart](https://lucid.app/lucidchart/a36d8ff2-e6b8-426c-af67-fa70f04b9f55/edit?invitationId=inv_1df9e484-663a-4413-84b1-a63b7b525018)**
 
 ![As-Is loan approval process](./loan-application%20%E2%80%94%20As-Is%20Process.png)
 
-## To-Be Process
+## To-Be process
 
-The proposed workflow introduces system checks for required attachments before submission, assigned follow-up responsibility and due dates, and explicit validation of replacement documents.
+In the proposed workflow, the system checks for required attachments before submission. Follow-up gets an assigned owner and a due date, and replacement documents go through an explicit validation step.
 
-Only assessment tasks permitted by approved business rules may continue while documents are outstanding. Tasks dependent on missing documents pause, and the authorised manager retains the final approval decision.
+While documents are outstanding, only assessment tasks allowed by approved business rules continue. Tasks that depend on the missing documents pause. The authorised manager still makes the final approval decision.
 
-The diagram separates responsibilities across five lanes:
+The diagram has five lanes: Customer, Application System, Loan Officer, Credit Assessment, and Authorised Manager.
 
-- Customer
-- Application System
-- Loan Officer
-- Credit Assessment
-- Authorised Manager
-
-**[View the Proposed To-Be Process Map in Lucidchart](https://lucid.app/lucidspark/0acb376c-e88d-43c3-851a-b8d57038d122/edit?invitationId=inv_d5fc133b-9266-4372-a207-b4f7d8bf0d8a)**
+**[View the proposed To-Be process map in Lucidchart](https://lucid.app/lucidspark/0acb376c-e88d-43c3-851a-b8d57038d122/edit?invitationId=inv_d5fc133b-9266-4372-a207-b4f7d8bf0d8a)**
 
 ![To-Be loan approval process](./loan-application%20%E2%80%94%20To-Be%20Process.png)
 
@@ -48,29 +40,29 @@ The diagram separates responsibilities across five lanes:
 | Customer notification | Authorised manager | Loan officer |
 | Final approval | Authorised manager | Authorised manager |
 
-Changes to task ownership are proposals that require stakeholder agreement.
+The changes to task ownership are proposals and would need stakeholder agreement.
 
 ## Expected benefits
 
-The proposed workflow aims to:
+I expect the proposed workflow to:
 
-- Identify missing attachments earlier.
-- Make follow-up ownership and deadlines clearer.
-- Reduce avoidable waiting where assessment tasks can proceed.
-- Provide a defined process for validating replacement documents.
-- Retain human review and authorised approval.
+- Identify missing attachments earlier
+- Make follow-up ownership and deadlines clearer
+- Reduce avoidable waiting where assessment tasks can proceed
+- Give replacement documents a defined validation process
+- Keep human review and authorised approval in place
 
-These are expected benefits. No improvement has been measured or claimed.
+These are expectations only. I haven't measured any improvement.
 
-## Business analysis skills demonstrated
+## Skills this project shows
 
 - As-Is and To-Be process mapping
 - Swimlane modelling and responsibility allocation
-- Process comparison and improvement identification
+- Comparing processes and identifying improvements
 - Decision modelling and exception handling
 - Document validation and rework loops
 - Follow-up ownership and escalation
-- Business rules governing permitted assessment work
+- Business rules that limit which assessment work can continue
 
 ## Measures to evaluate
 
@@ -78,25 +70,25 @@ A real pilot could compare:
 
 - Document completeness at first submission
 - Document rework rate
-- Time waiting for outstanding documents
+- Time spent waiting for outstanding documents
 - Overall application turnaround time
-- Overdue follow-up volume
+- Volume of overdue follow-ups
 
 ## Status and next steps
 
-Completed:
+Done:
 
 - As-Is and To-Be process maps
 - Swimlanes showing responsibilities and handovers
 - Proposed document validation and follow-up improvements
 
-Next steps:
+Next:
 
-- Validate the assumed current process with stakeholders.
-- Confirm proposed responsibilities and handovers.
-- Define required documents and permitted assessment tasks.
-- Agree follow-up deadlines and escalation rules.
-- Document requirements and acceptance criteria.
-- Establish baseline measures and evaluate the proposed changes.
+- Validate the assumed current process with stakeholders
+- Confirm proposed responsibilities and handovers
+- Define the required documents and which assessment tasks can continue
+- Agree follow-up deadlines and escalation rules
+- Document requirements and acceptance criteria
+- Set baseline measures and evaluate the proposed changes
 
-**Tool:** Lucidchart
+Built with Lucidchart.
