@@ -14,6 +14,8 @@ This is a learning scenario. The processes and problems are assumptions to valid
 
 The assumed current workflow relies on manual document checks after submission. Missing or incorrect documents place assessment on hold while staff follow up. Returned documents are checked again before credit assessment and manager review.
 
+**[View the As-Is Process Map in Lucidchart](https://lucid.app/lucidchart/a36d8ff2-e6b8-426c-af67-fa70f04b9f55/edit?invitationId=inv_1df9e484-663a-4413-84b1-a63b7b525018)**
+
 ![As-Is loan approval process](./loan-application%20%E2%80%94%20As-Is%20Process.png)
 
 ## To-Be Process
@@ -29,6 +31,8 @@ The diagram separates responsibilities across five lanes:
 - Loan Officer
 - Credit Assessment
 - Authorised Manager
+
+**[View the Proposed To-Be Process Map in Lucidchart](https://lucid.app/lucidspark/0acb376c-e88d-43c3-851a-b8d57038d122/edit?invitationId=inv_d5fc133b-9266-4372-a207-b4f7d8bf0d8a)**
 
 ![To-Be loan approval process](./loan-application%20%E2%80%94%20To-Be%20Process.png)
 
